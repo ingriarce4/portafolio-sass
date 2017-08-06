@@ -1,3 +1,35 @@
-*{
-	font-family:$body_font;
+* { 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+/* descripcion */
+#descripcion{
+padding: 20px;
+
+    h3{
+margin-left: 50px;
+}
+     h4{
+padding: 20px;
+}
+     .rojo{
+   	color: #e91e63;
+   text-align: right;
+}
+     .azul{
+	color: #00bcd4;
+    margin-left: 50px;
+}
+     .verde{
+	color: #4caf50;
+    margin-left: 50px;
+   }
+}
+
+/* who */
+#who{
+	background-image: url("/img/img_city.jpg");
+}
+
+
+
